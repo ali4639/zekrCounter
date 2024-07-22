@@ -1,0 +1,74 @@
+/* 
+Designer : Ali Azarban
+Date     : 2024/07/21
+Email    : azarban4639@gail.com 
+*/
+
+@font-face{
+    font-family: 'digital';
+    src: url('fonts/digital.ttf') format('truetype'),
+    url('fonts/digital.woff') format('woff'),
+    url('fonts/digital.woff2') format('woff2');
+   }
+
+*{
+    font-family: 'digital';
+}
+
+html ,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body{
+    background-color: #8ea2dda3;
+}
+
+.container{
+    background: url('img/counterBody.png') no-repeat;
+    width: 326px;
+    height: 410px;
+    position: absolute;
+    filter: drop-shadow(0 0 10px #000);
+}
+
+.lcd{
+    font-size: 87px;
+    color: #000;
+    width: 230px;
+    position: relative;
+    left: 39px;
+    top: -114px;
+    text-align: right;
+}
+
+.counterBtn{
+    background: url('img/counterBtn.png') no-repeat;
+    width: 141px;
+    height: 141px;
+    position: relative;
+    left: 93px;
+    top: 239px
+}
+
+.counterBtn:active{
+    background: url('img/pressCounterBtn.png') no-repeat;
+}
+
+.resetBtn{
+    background: url('img/resBtn.png') no-repeat;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    left: 221px;
+    top: 70px;
+}
+
+.resetBtn:active{
+    background: url('img/pressResBtn.png') no-repeat;
+}
